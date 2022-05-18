@@ -11,6 +11,12 @@
 		CEE1637C2835623C00BD6329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1637B2835623C00BD6329 /* ContentView.swift */; };
 		CEE1637E2835623D00BD6329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1637D2835623D00BD6329 /* Assets.xcassets */; };
 		CEE163812835623D00BD6329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE163802835623D00BD6329 /* Preview Assets.xcassets */; };
+		CEE16388283562EE00BD6329 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE16387283562EE00BD6329 /* RegisterView.swift */; };
+		CEE1638A2835633700BD6329 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE163892835633700BD6329 /* UserManager.swift */; };
+		CEE1638C2835639500BD6329 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1638B2835639400BD6329 /* TimeCounter.swift */; };
+		CEE1638E2835641300BD6329 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1638D2835641300BD6329 /* StarterView.swift */; };
+		CEE163902835661F00BD6329 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1638F2835661F00BD6329 /* StartButtonView.swift */; };
+		CEE1639228356B4000BD6329 /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1639128356B4000BD6329 /* LogOutButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		CEE1637B2835623C00BD6329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEE1637D2835623D00BD6329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE163802835623D00BD6329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE16387283562EE00BD6329 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CEE163892835633700BD6329 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		CEE1638B2835639400BD6329 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		CEE1638D2835641300BD6329 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		CEE1638F2835661F00BD6329 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		CEE1639128356B4000BD6329 /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				CEE163792835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift */,
 				CEE1637B2835623C00BD6329 /* ContentView.swift */,
+				CEE16387283562EE00BD6329 /* RegisterView.swift */,
+				CEE1638D2835641300BD6329 /* StarterView.swift */,
+				CEE1638F2835661F00BD6329 /* StartButtonView.swift */,
+				CEE1639128356B4000BD6329 /* LogOutButtonView.swift */,
+				CEE163892835633700BD6329 /* UserManager.swift */,
+				CEE1638B2835639400BD6329 /* TimeCounter.swift */,
 				CEE1637D2835623D00BD6329 /* Assets.xcassets */,
 				CEE1637F2835623D00BD6329 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE163902835661F00BD6329 /* StartButtonView.swift in Sources */,
+				CEE16388283562EE00BD6329 /* RegisterView.swift in Sources */,
+				CEE1639228356B4000BD6329 /* LogOutButtonView.swift in Sources */,
 				CEE1637C2835623C00BD6329 /* ContentView.swift in Sources */,
+				CEE1638E2835641300BD6329 /* StarterView.swift in Sources */,
+				CEE1638A2835633700BD6329 /* UserManager.swift in Sources */,
+				CEE1638C2835639500BD6329 /* TimeCounter.swift in Sources */,
 				CEE1637A2835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
