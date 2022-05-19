@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct RegisterView: View {
-    @EnvironmentObject var user: UserManager 
+    @EnvironmentObject var user: UserManager
     @State private var name = ""
     @State private var textValue = ""
+//    @AppStorage("user") var user = UserManager()
+    
+    private var nameValueIsValid: Bool {
+        name.count >= 3 && name.count <= 20
+    }
     
     var body: some View {
         VStack {
@@ -19,7 +24,7 @@ struct RegisterView: View {
                     .multilineTextAlignment(.center)
                     .frame(width: 300)
                 Text("\(name.count)")
-                    .foregroundColor(textValueColor)
+                    .foregroundColor(nameValueIsValid ? .green : .red)
                     .multilineTextAlignment(.leading)
                     .onChange(of: name){ value in
                         textValue = "\(name.count)"
@@ -33,32 +38,18 @@ struct RegisterView: View {
                     Image(systemName: "checkmark.circle")
                     Text("Ok")
                 }
-                .foregroundColor(buttonColor)
+                .foregroundColor(nameValueIsValid ? .accentColor : .gray)
             }
         }
     }
-    
-    private var nameValueIsValid: Bool {
-        name.count >= 3 && name.count <= 20
-    }
-    
-    private var buttonColor: Color {
-        nameValueIsValid ? .accentColor : .gray
-    }
-    
-    private var textValueColor: Color {
-        nameValueIsValid ? .green : .red
-    }
-    
     
     private func registerUser() {
         if nameValueIsValid {
             user.name = name
             user.isRegister.toggle()
+            UserDefaults.standard.set(name, forKey: "userName")
         }
     }
-    
-
     
 }
 
