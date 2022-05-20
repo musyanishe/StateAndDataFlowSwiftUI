@@ -13,7 +13,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("Нi, \(user.name)")
+            Text("Нi, \(user.user.name)")
                 .font(.largeTitle)
                 .offset(x: 0, y: 100)
             Text("\(timer.counter)")
@@ -28,6 +28,7 @@ struct ContentView: View {
             Spacer()
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

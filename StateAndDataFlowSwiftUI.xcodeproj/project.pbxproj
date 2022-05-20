@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE78619A2837D7DA00C0777F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7861992837D7DA00C0777F /* DataManager.swift */; };
 		CEE1637A2835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE163792835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift */; };
 		CEE1637C2835623C00BD6329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1637B2835623C00BD6329 /* ContentView.swift */; };
 		CEE1637E2835623D00BD6329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1637D2835623D00BD6329 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7861992837D7DA00C0777F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CEE163762835623C00BD6329 /* StateAndDataFlowSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlowSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE163792835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowSwiftUIApp.swift; sourceTree = "<group>"; };
 		CEE1637B2835623C00BD6329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				CEE1638F2835661F00BD6329 /* StartButtonView.swift */,
 				CEE1639128356B4000BD6329 /* LogOutButtonView.swift */,
 				CEE163892835633700BD6329 /* UserManager.swift */,
+				CE7861992837D7DA00C0777F /* DataManager.swift */,
 				CEE1638B2835639400BD6329 /* TimeCounter.swift */,
 				CEE1637D2835623D00BD6329 /* Assets.xcassets */,
 				CEE1637F2835623D00BD6329 /* Preview Content */,
@@ -162,6 +165,7 @@
 				CEE1638E2835641300BD6329 /* StarterView.swift in Sources */,
 				CEE1638A2835633700BD6329 /* UserManager.swift in Sources */,
 				CEE1638C2835639500BD6329 /* TimeCounter.swift in Sources */,
+				CE78619A2837D7DA00C0777F /* DataManager.swift in Sources */,
 				CEE1637A2835623C00BD6329 /* StateAndDataFlowSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

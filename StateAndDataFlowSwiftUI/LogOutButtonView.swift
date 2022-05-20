@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LogOutButtonView: View {
-@State private var isPressed = false
+    @EnvironmentObject var user: UserManager
     
     var body: some View {
         Button(action: dismiss) {
@@ -26,8 +26,9 @@ struct LogOutButtonView: View {
     }
     
     private func dismiss() {
-//        if isPressed{
-//            RegisterView()
+        user.user.isRegister = false
+        user.user.name = ""
+//        DataManager.shared.saveUser(user: )
         }
     }
 
