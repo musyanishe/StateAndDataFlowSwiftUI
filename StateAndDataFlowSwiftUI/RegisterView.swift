@@ -31,7 +31,7 @@ struct RegisterView: View {
                     }
                     .padding()
             }
-            
+          
             Button(action: registerUser) {
                 HStack {
                     Image(systemName: "checkmark.circle")
